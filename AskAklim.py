@@ -138,17 +138,66 @@ st.write("השאלה נשלחת למודל שפה (גוגל ג'מיני 1.5 פר
 st.write("המידע המופיע בתשובות לשאלות יכול להתאפיין באי דיוקים, מומלץ לוודא את נכונות המידע בחוזר המנכל")
 link = "https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492"
 st.markdown(f'[לחץ כאן]({link}) לכניסה לחוזר המנכל עליו מתבססות התשובות ')
-with st.expander("רשימת שאלות לדוגמא"):
+
+with st.expander("רשימת פרקים"):
     st.markdown(
         """
-        |   | שאלות לדוגמא|
-        |---|----------------------------------------------|
-        |   |  |
-        |   |  |
-        |   |  |
-        |   |  |
+        | רשימת פרקים |
+        |----------------------------------------------|
+        | [דבר המנכ"ל לחוזר מנכ"ל אקלים חינוכי מיטבי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000054) |
+        | [פרק א': היערכות חינוכית מערכתית כוללת ליצירת אקלים חינוכי מיטבי ובטוח ולצמצום האלימות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000054) |
+        | [1.1 כללי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000055) |
+        | [1.2 הנחות יסוד ועקרונות מנחים ליצירת אקלים בית-ספרי מיטבי ובטוח](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000056) |
+        | [1.3 סטנדרטים לתרבות תומכת ולאקלים מיטבי במוסדות החינוך](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000057) |
+        | [1.4 מרכיבי יסוד בתכנית המערכתית לבניית אקלים חינוכי מיטבי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000058) |
+        | [1.5 נושאים מרכזיים בתכנית ההתערבות המערכתית הבית-ספרית](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000059) |
+        | [1.6 בעלי תפקידים - תפקידיהם ביישום ההנחיות והנהלים לבניית אקלים חינוכי מיטבי ובטוח ולצמצום האלימות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000060) |
+        | [1.7 קשר עם התקשורת](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000061) |
+        | [פרק ב': אורחות חיים -- התנהלות בשגרה](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000062) |
+        | [2.1 כללי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000063) |
+        | [2.2 כתיבת תקנון חינוכי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000064) |
+        | [2.3 נוהל השעיה](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000065) |
+        | [2.4 התנהלות בשגרה ומדרג תגובות בעקבות הפרת נהלים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000066) |  
+        | [2.5 טיפול באירועי עישון, באירועי הבאת אלכוהול ו/או שתיית אלכוהול בפעילויות פנים וחוץ בית-ספריות ובטיולים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000068) |
+        | [פרק ג': קידום מוגנות והתמודדות עם אירועי אלימות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000069) |
+        | [3.1 כללי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000070) |
+        | [3.2 טיפול באירועי פגיעה אלימה של תלמידים בתלמידים בבית הספר](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000071) |
+        | [3.3 היבטים בנוגע לשימוש בטכנולוגיה במהלך פעילויות פנים וחוץ בית סִפריות ודרכי תגובה וטיפול במצבים בהם התרחשה פגיעה מקוונת](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000072) |
+        | [3.4 מוגנות עובדי הוראה -- טיפול באירועי פגיעה בעובדי הוראה ועובדי המוסד החינוכי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000073) |
+        | [3.5 טיפול באירועים חריגים המתרחשים מחוץ למוסד החינוכי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000074) |
+        | [3.6 כללי התנהגות, מוגנות וטיפול באלימות בהסעות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000075) |
+        | [3.7 טיפול באירועי פגיעה בבעלי חיים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000076) |
+        | [3.8 טיפול באירועי פגיעה של הורים בתלמידים שאינם ילדיהם או של מבוגרים אחרים (קרובי משפחה, מבוגר אחר) בתלמידים.](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000077) |
+        | [3.9 טיפול באירועי פגיעה של עובדי הוראה בתלמידים ובילדי גן](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000078) |
+        | [3.10 הנחיות להתערבות בטווח הארוך בעקבות אירוע אלימות חמור](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000079) |
+        | [פרק ד': היערכות מערכתית ליצירת מוגנות ואקלים חינוכי בטוח ולמניעת אלימות והתנהגויות לא מותאמות בגן הילדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000080) |
+        | [4.1 כללי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000081) |
+        | [4.2 הנחות יסוד ועקרונות מנחים ליצירת מוגנות ואקלים בטוח ומיטבי בגן הילדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000082) |
+        | [4.3 סטנדרטים לתרבות ולאקלים מיטבי מוגן ובטוח בגן](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000083) |
+        | [4.4 התמודדות עם התנהגויות חריגות בגן הילדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000084) |
+        | [4.5 הנחיות לטיפול בהתנהגויות חריגות בגן הילדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000085) |
+        | [4.6 טיפול באירועי אלימות בגן אשר מעורבים בהם הורים או מבוגרים אחרים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000086) |
+        | [תלמידים הזכאים לשירותי חינוך מיוחדים ולומדים במוסד לחינוך רגיל או במוסד לחינוך מיוחד](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000087) |
+        | [5.1 כללי](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000088) |
+        | [5.2 התנהלות בשגרה](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000089) |
+        | [5.3 התמודדות עם אירועי אלימות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000090) |
+        | [5.4 טיפול באירועים חריגים בגן הילדים - תלמידים הזכאים לשירותי חינוך מיוחדים ולומדים בגן לחינוך רגיל ובגן לחינוך מיוחד](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000091) |
+        | [5.5 נוהל השהיית תלמיד שלו בעיות אלימות ומשמעת חמורות מלימודים במסגרת חינוכית לצורך התערבות רפואית](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000092) |
+        | [נספחים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000093) |
+        | [נספח 1: בניית תכנית אישית לתלמיד שמגלה בעיות התנהגות או אלימות](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000094) |
+        | [נספח 2: טופס דיווח חריג על אירוע פגיעה של מורה בתלמיד](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000095) |
+        | [נספח 3: בקשה להשעיית תלמיד עם זכאות לשירותי חינוך מיוחדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000096) |
+        | [נספח 4: אישור/דחיית בקשה להשעיית תלמיד עם זכאות לשירותי חינוך מיוחדים](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000097) |
+        | [נספח 5: בקשה להשהיית תלמיד עם זכאות לשירותי חינוך מיוחדים לצורך התערבות רפואית](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000098) |
+        | [נספח 6: אישור/דחיית בקשה להשהיית תלמיד ממסגרת החינוך המיוחד לצורך התערבות רפואית](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000099) |
+        | [נספח 7: הגדרת כלי נשק על פי החוק](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000100) |
+        | [נספח 8: חקירת קטינים בתוך המוסד החינוכי או מחוצה לו כעדים או כחשודים בלשון החוק](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000101) |
+        | [נספח 9: גישת צדק מאחה בבית הספר ויישומה](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000102) |
+        | [נספח 10: צעדים לטיפול באירוע של פגיעה מקוונת](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000103) |
+        | [נספח 11 - מוקד 105 המטה הלאומי להגנה על ילדים ונוער ברשת](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000104) |
+        | [נספח 12 - טופס אירוע חריג - טיפול באירוע של פגיעה מילולית, פיזית או ברשתות החברתיות בצוות חינוכי שהורים/מבוגרים אחרים מעורבים בהם](https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492#_Toc256000105) |
         """
-    )
+)
 st.write('')
 st.write('')
 st.write('iftachts@gmail.com :ליצירת קשר')
