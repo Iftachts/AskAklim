@@ -131,7 +131,7 @@ def send_and_display_message():
 
 st.title("שאלו את חוזר המנכל")
 url = "https://apps.education.gov.il/mankal/Horaa.aspx?siduri=492"
-st.markdown(f'<h2><a href="{url}" target="_blank">אקלים חינוכי מיטבי והתמודדות מוסדות חינוך עם אירועי אלימות וסיכון</a></h2>', unsafe_allow_html=True)
+st.markdown(f'<h3><a href="{url}" target="_blank">אקלים חינוכי מיטבי והתמודדות מוסדות חינוך עם אירועי אלימות וסיכון</a></h3>', unsafe_allow_html=True)
 # Set up UI for input
 user_message = st.text_area(label=' ', key="user_message", placeholder='כתבו כאן את שאלתכם')
 send_button = st.button("שלחו", on_click=send_and_display_message)
